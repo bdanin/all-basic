@@ -1,0 +1,8 @@
+Fix "Notice: Undefined index: quantity"
+=======================================
+
+* Fixes error message "Notice: Undefined index: quantity in omega_views_mini_pager()" in latest Omega with latest Views, when using mini-pager
+* Issue: http://drupal.org/node/1828552
+* Patch: http://drupal.org/node/1828552#comment-6923468
+* Patch file: http://drupal.org/files/1828552-omega-hook_views_mini_pager.patch
+
